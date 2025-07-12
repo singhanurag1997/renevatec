@@ -21,6 +21,9 @@ export default function Home() {
   }, [])
   return (
     <div className="sectionData">
+    <h1 style={{ textAlign: "center", marginBottom: "1rem", fontSize: "24px" }}>
+      Welcome to Renevatec — Powered by Anurag 🚀
+    </h1>
       <Slider />
       {/*<Ourservice />*/}
       <Rethinkenergy />
